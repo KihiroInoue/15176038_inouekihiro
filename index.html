@@ -8,7 +8,7 @@
 	<meta property="og:image" content="data/hinoshi.png" />
 	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<title>日野市オープンデータ可視化</title>
+	<title>誰でも楽しめる、日本名山</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
 	<link rel="SHORTCUT ICON" href="http://shinsai.mapping.jp/favicon.ico">
 	<style>
@@ -64,7 +64,7 @@
 		<a href="https://www.openstreetmap.org/copyright" target="_blank">MapData: © OpenStreetMap contributors</a>
 	</div>
 	<script>
-		// ========== 初期化 ========== 
+		// ========== 初期化 ==========
 
 		//スマホで閲覧した際に，スワイプによるスクロールを禁止
 
@@ -90,7 +90,7 @@
 			$(svNotAvailable).hide();
 		});
 
-		// ========== ビューア初期化 ========== 
+		// ========== ビューア初期化 ==========
 
 		var viewer = new Cesium.Viewer('cesiumContainer', {
 			imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
@@ -101,8 +101,8 @@
 			navigationInstructionsInitiallyVisible: false,
 			geocoder: false,
 			//時間を使うときは以下の二行をコメントアウト
-			timeline: false,
-			animation: false,
+			//timeline: false,
+			//animation: false,
 			sceneModePicker: false,
 			baseLayerPicker: false,
 			scene3DOnly: true,
@@ -119,7 +119,7 @@
 		var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
 			url: '//assets.agi.com/stk-terrain/world',
 			//海を表示しないときは以下をfalseに
-			requestWaterMask: true,
+			requestWaterMask: false,
 			requestVertexNormals: true
 		});
 		viewer.terrainProvider = cesiumTerrainProviderMeshes;
@@ -130,7 +130,7 @@
 		fog.density = 0.0005;
 		fog.screenSpaceErrorFactor = 100.0;
 
-		// ========== 視点関連 ========== 
+		// ========== 視点関連 ==========
 
 		//視点配列を作成
 
@@ -195,7 +195,7 @@
 			navigator.geolocation.getCurrentPosition(fly);
 		}
 
-		// ========== 以降，起動シークエンス ========== 
+		// ========== 以降，起動シークエンス ==========
 
 		//クレジットを隠す
 
@@ -222,7 +222,7 @@
 			setTimeout('loadKml()', 3000);
 		}
 
-		// ========== KMLをロード ========== 
+		// ========== KMLをロード ==========
 
 		//KML配列を作成
 
@@ -233,10 +233,97 @@
 
 		var kmlDataArray = [];
 		//KMLデータを登録．kmzでもOK
-		kmlDataArray[0] = new kmlData("避難所", 'data/kml/hinanjo.kml');
-		kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
+		kmlDataArray[0] = new kmlData("20歳", '../data/kml/20歳_1959_1968.kml');
+		kmlDataArray[1] = new kmlData("30歳", '../data/kml/30歳_1969_1978.kml');
 		//時間情報入りのKML
 		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
+
+//時間のバー表示
+
+		var displayTime;
+
+		function checkTime() {
+			var now = viewer.clock.currentTime;
+			var current = Cesium.JulianDate.fromIso8601(currentISO);
+			var nowAndCurrent = Cesium.JulianDate.compare(now, current);
+			if (nowAndCurrent > 0) {
+				viewer.clock.shouldAnimate = false;
+			}
+			showOff(0);
+			var nowIso = Cesium.JulianDate.toIso8601(now);
+			thisTime = nowIso.substr(2, 2) + nowIso.substr(5, 2) + nowIso.substr(8, 2) + nowIso.substr(11, 2);
+			if (overlayList[thisTime] != null) {
+				var overlayOpacity = overlayList[thisTime].overlay.alpha;
+				overlayOpacity = 0.85;
+				transParent();
+			}
+			var nowDate = Cesium.JulianDate.toDate(now);
+			var y = nowDate.getFullYear();
+			var m = nowDate.getMonth() + 1;
+			var d = nowDate.getDate();
+			var h = nowDate.getHours();
+			if (m < 10) {
+				m = '0' + m;
+			}
+			if (d < 10) {
+				d = '0' + d;
+			}
+			if (h < 10) {
+				h = '0' + h;
+			}
+			var timeString = y + '年' + m + '月' + d + '日' + h + '時';
+			if (timeString != displayTime) {
+				displayTime = timeString;
+				timeCounter(displayTime);
+			}
+		}
+
+		function reset() {
+			clock = new Cesium.Clock({
+				startTime: Cesium.JulianDate.fromIso8601(startISO),
+				currentTime: Cesium.JulianDate.fromIso8601(startISO),
+				stopTime: Cesium.JulianDate.fromIso8601(endISO),
+				clockRange: Cesium.ClockRange.LOOP_STOP
+			});
+			viewer.clock.startTime = clock.startTime;
+			viewer.clock.stopTime = clock.stopTime;
+			viewer.clock.currentTime = clock.currentTime;
+			viewer.clock.multiplier = 10 * 60 * 60;
+			viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
+
+			viewer.camera.moveEnd.addEventListener(function () {
+				transParent();
+			});
+		}
+
+		function transParent() {
+			var cameraHeight = viewer.camera.positionCartographic.height;
+			if (cameraHeight < 100000) {
+				var decayRange = cameraHeight * 0.00001;
+				trans = decayRange * document.getElementById("range01").value * 0.03;
+				overlayList[thisTime].overlay.alpha = trans;
+			} else {
+				trans = document.getElementById("range01").value * 0.03;
+				overlayList[thisTime].overlay.alpha = trans;
+			}
+		}
+
+		function showOff(trans) {
+			for (var key in overlayList) {
+				var data = overlayList[key];
+				data.overlay.alpha = trans;
+			}
+		}
+
+//時間のバー表示ここまで
+
+//タイムカウンター表示
+
+		function timeCounter(displayTime) {
+			var timeCounter = document.getElementById("timeCounter");
+			timeCounter.innerHTML = '<p class="timeCounter">' + displayTime + '</p>';
+		}
+//
 
 		function loadKml() {
 			var i = 0;
@@ -272,7 +359,7 @@
 			}, 200);
 		}
 
-		// ========== 地図オーバレイを作成 ========== 
+		// ========== 地図オーバレイを作成 ==========
 
 		// オーバレイ配列
 
@@ -314,7 +401,7 @@
 			overlayListMenu.innerHTML = overlayList;
 		}
 
-		//オーバレイの透明度を変更 
+		//オーバレイの透明度を変更
 
 		function transParent(layer) {
 			var id = overlayDataArray[layer].id;
@@ -358,7 +445,7 @@
 			);
 		}
 
-		// ========== ダブルクリックでストビューを表示 ========== 
+		// ========== ダブルクリックでストビューを表示 ==========
 
 		//移動前のカメラ位置格納オブジェクト
 
@@ -422,13 +509,13 @@
 			}, Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 		}
 
-		// ========== ヘルプへリンク ========== 
+		// ========== ヘルプへリンク ==========
 
 		function help() {
 			window.open('https://github.com/wtnv-lab/cesiumGitHubPages');
 		}
 
-		// ========== 各種DIVのフェードイン・アウト ========== 
+		// ========== 各種DIVのフェードイン・アウト ==========
 
 		function fadeInOut(layer, param) {
 			if (param == 0) {
