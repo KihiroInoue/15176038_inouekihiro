@@ -4,11 +4,11 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-	<meta name="description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta name="description" content="Cesiumを使った遥かなる日本七百名山の可視化コンテンツです" />
 	<meta property="og:image" content="data/hinoshi.png" />
-	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta property="og:description" content="esiumを使った遥かなる日本七百名山の可視化コンテンツです" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<title>誰でも楽しめる、日本名山</title>
+	<title>誰でも楽しめる、日本名山登り</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
 	<link rel="SHORTCUT ICON" href="http://shinsai.mapping.jp/favicon.ico">
 	<style>
@@ -243,93 +243,6 @@
 		//時間情報入りのKML
 		kmlDataArray[6] = new kmlData("タイムスパン", 'data/kml/timespan.kml');
 
-//時間のバー表示
-
-		var displayTime;
-
-		function checkTime() {
-			var now = viewer.clock.currentTime;
-			var current = Cesium.JulianDate.fromIso8601(currentISO);
-			var nowAndCurrent = Cesium.JulianDate.compare(now, current);
-			if (nowAndCurrent > 0) {
-				viewer.clock.shouldAnimate = false;
-			}
-			showOff(0);
-			var nowIso = Cesium.JulianDate.toIso8601(now);
-			thisTime = nowIso.substr(2, 2) + nowIso.substr(5, 2) + nowIso.substr(8, 2) + nowIso.substr(11, 2);
-			if (overlayList[thisTime] != null) {
-				var overlayOpacity = overlayList[thisTime].overlay.alpha;
-				overlayOpacity = 0.85;
-				transParent();
-			}
-			var nowDate = Cesium.JulianDate.toDate(now);
-			var y = nowDate.getFullYear();
-			var m = nowDate.getMonth() + 1;
-			var d = nowDate.getDate();
-			var h = nowDate.getHours();
-			if (m < 10) {
-				m = '0' + m;
-			}
-			if (d < 10) {
-				d = '0' + d;
-			}
-			if (h < 10) {
-				h = '0' + h;
-			}
-			var timeString = y + '年' + m + '月' + d + '日' + h + '時';
-			if (timeString != displayTime) {
-				displayTime = timeString;
-				timeCounter(displayTime);
-			}
-		}
-
-		function reset() {
-			clock = new Cesium.Clock({
-				startTime: Cesium.JulianDate.fromIso8601(startISO),
-				currentTime: Cesium.JulianDate.fromIso8601(startISO),
-				stopTime: Cesium.JulianDate.fromIso8601(endISO),
-				clockRange: Cesium.ClockRange.LOOP_STOP
-			});
-			viewer.clock.startTime = clock.startTime;
-			viewer.clock.stopTime = clock.stopTime;
-			viewer.clock.currentTime = clock.currentTime;
-			viewer.clock.multiplier = 10 * 60 * 60;
-			viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
-
-			viewer.camera.moveEnd.addEventListener(function () {
-				transParent();
-			});
-		}
-
-		function transParent() {
-			var cameraHeight = viewer.camera.positionCartographic.height;
-			if (cameraHeight < 100000) {
-				var decayRange = cameraHeight * 0.00001;
-				trans = decayRange * document.getElementById("range01").value * 0.03;
-				overlayList[thisTime].overlay.alpha = trans;
-			} else {
-				trans = document.getElementById("range01").value * 0.03;
-				overlayList[thisTime].overlay.alpha = trans;
-			}
-		}
-
-		function showOff(trans) {
-			for (var key in overlayList) {
-				var data = overlayList[key];
-				data.overlay.alpha = trans;
-			}
-		}
-
-//時間のバー表示ここまで
-
-//タイムカウンター表示
-
-		function timeCounter(displayTime) {
-			var timeCounter = document.getElementById("timeCounter");
-			timeCounter.innerHTML = '<p class="timeCounter">' + displayTime + '</p>';
-		}
-//
-
 		function loadKml() {
 			var i = 0;
 			var load = setInterval(function () {
@@ -419,6 +332,133 @@
 				overlay.alpha = slider.value * 0.03;
 			}
 		}
+
+
+
+
+/////////////////////////////////////時間の年齢ごと表示/////////////////////////////////////////////////////////
+
+
+		var displayTime;
+
+				//時間受け取り
+				function checkTime() {
+					var now = viewer.clock.currentTime;
+					var current = Cesium.JulianDate.fromIso8601(currentISO);
+					var nowAndCurrent = Cesium.JulianDate.compare(now, current);
+					if (nowAndCurrent > 0) {
+						viewer.clock.shouldAnimate = false;
+					}
+					showOff(0);
+					var nowIso = Cesium.JulianDate.toIso8601(now);
+					thisTime = nowIso.substr(2, 2) + nowIso.substr(5, 2) + nowIso.substr(8, 2) + nowIso.substr(11, 2);
+					if (overlayList[thisTime] != null) {
+						var overlayOpacity = overlayList[thisTime].overlay.alpha;
+						overlayOpacity = 0.85;
+						transParent();
+					}
+
+					//受け取った時間を元に表示
+					var nowDate = Cesium.JulianDate.toDate(now);
+					var y = nowDate.getFullYear();
+					/*var m = nowDate.getMonth() + 1;
+					var d = nowDate.getDate();
+					var h = nowDate.getHours();
+					if (m < 10) {
+						m = '0' + m;
+					}
+					if (d < 10) {
+						d = '0' + d;
+					}
+					if (h < 10) {
+						h = '0' + h;
+					}*/
+
+					//年から年齢を指定
+
+					if(y<1969){
+						y = 20;
+					}
+
+					if(1969<=y && y<1979){
+						y = 30;
+					}
+
+					if(1979<=y && y<1989){
+						y = 40;
+					}
+
+					if(1989<=y && y<1999){
+						y = 50;
+					}
+
+					if(1999<=y && y<2009){
+						y = 60;
+					}
+
+					if(2009<=y ){
+						y = 70;
+					}
+
+
+					var timeString = y + '歳' ;
+					if (timeString != displayTime) {
+						displayTime = timeString;
+						timeCounter(displayTime);
+					}
+				}
+
+				function reset() {
+					clock = new Cesium.Clock({
+						startTime: Cesium.JulianDate.fromIso8601(startISO),
+						currentTime: Cesium.JulianDate.fromIso8601(startISO),
+						stopTime: Cesium.JulianDate.fromIso8601(endISO),
+						clockRange: Cesium.ClockRange.LOOP_STOP
+					});
+					viewer.clock.startTime = clock.startTime;
+					viewer.clock.stopTime = clock.stopTime;
+					viewer.clock.currentTime = clock.currentTime;
+					viewer.clock.multiplier = 10 * 60 * 60;
+					viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
+
+					viewer.camera.moveEnd.addEventListener(function () {
+						transParent();
+					});
+				}
+
+				function transParent() {
+					var cameraHeight = viewer.camera.positionCartographic.height;
+					if (cameraHeight < 100000) {
+						var decayRange = cameraHeight * 0.00001;
+						trans = decayRange * document.getElementById("range01").value * 0.03;
+						overlayList[thisTime].overlay.alpha = trans;
+					} else {
+						trans = document.getElementById("range01").value * 0.03;
+						overlayList[thisTime].overlay.alpha = trans;
+					}
+				}
+
+				function showOff(trans) {
+					for (var key in overlayList) {
+						var data = overlayList[key];
+						data.overlay.alpha = trans;
+					}
+				}
+
+				//タイムカウンター表示
+
+				function timeCounter(displayTime) {
+					var timeCounter = document.getElementById("timeCounter");
+					timeCounter.innerHTML = '<p class="timeCounter">' + displayTime + '</p>';
+				}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
 
 		//ジオコード
 
@@ -513,6 +553,17 @@
 				}
 			}, Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 		}
+
+
+
+
+
+
+
+
+
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		// ========== ヘルプへリンク ==========
 

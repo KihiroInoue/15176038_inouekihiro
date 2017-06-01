@@ -114,6 +114,31 @@ button.cesium-infoBox-close {
 }
 
 
+/*タイムカウンター（時間表示）*/
+
+#timeCounter {
+    width:160px;
+    height16px;
+    position:absolute;
+    bottom:14px;
+    left:50%;
+    margin-left:-80px;
+    z-index:10000;
+}
+.timeCounter {
+    font-size:14px;
+    color:white;
+    line-height:14px;
+    text-align:center;
+    font-family:sans-serif;
+}
+
+/*ここまで変更*/
+
+
+
+
+
 /*スライドメニュー群*/
 
 #slideMenuViewPoint {
