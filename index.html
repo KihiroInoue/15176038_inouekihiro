@@ -345,6 +345,7 @@
 				//時間受け取り
 				function checkTime() {
 					var now = viewer.clock.currentTime;
+					/*
 					var current = Cesium.JulianDate.fromIso8601(currentISO);
 					var nowAndCurrent = Cesium.JulianDate.compare(now, current);
 					if (nowAndCurrent > 0) {
@@ -358,7 +359,7 @@
 						overlayOpacity = 0.85;
 						transParent();
 					}
-
+					*/
 					//受け取った時間を元に表示
 					var nowDate = Cesium.JulianDate.toDate(now);
 					var y = nowDate.getFullYear();
@@ -411,14 +412,18 @@
 
 				function reset() {
 					clock = new Cesium.Clock({
+						/*
 						startTime: Cesium.JulianDate.fromIso8601(startISO),
 						currentTime: Cesium.JulianDate.fromIso8601(startISO),
 						stopTime: Cesium.JulianDate.fromIso8601(endISO),
 						clockRange: Cesium.ClockRange.LOOP_STOP
+						*/
 					});
+					/*
 					viewer.clock.startTime = clock.startTime;
 					viewer.clock.stopTime = clock.stopTime;
 					viewer.clock.currentTime = clock.currentTime;
+					*/
 					viewer.clock.multiplier = 10 * 60 * 60;
 					viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
 
