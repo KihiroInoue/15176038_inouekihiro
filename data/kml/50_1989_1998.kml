@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>50_1989_1999.kml</name>
+	<Style id="sn_tasirodake-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/tasirodake-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_yakusima-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/30/yakusima-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_kyouduka-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/kyouduka-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_miune-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_miune-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_miune-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_jyujikyo-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/jyujikyo-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_miune-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/miune-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_yakusima-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_yakusima-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_yakusima-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_yakusima-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/30/yakusima-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_kaimon-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/30/kaimon-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_turugiyama-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_turugiyama-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_turugiyama-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tengu-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/tengu-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_kyouduka-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_kyouduka-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_kyouduka-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_oomizuue-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/oomizuue-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_taheizan-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_taheizan-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_taheizan-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_turugiyama-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/turugiyama-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_takaragawa-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_takaragawa-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_takaragawa-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_taheizan-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/taheizan-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_turugiyama-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/turugiyama-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_kyouduka-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/kyouduka-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_takaragawa-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/takaragawa-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_tasirodake-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/tasirodake-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_kirisima">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/30/kirisima.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_jyujikyo-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_jyujikyo-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_jyujikyo-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_takaragawa-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/takaragawa-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_miune-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/miune-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_kirisima">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/30/kirisima.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_TANGO-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/TANGO-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_oomizuue-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/oomizuue-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_kaimon-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/30/kaimon-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_wagakake-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/wagakake-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_oomizuue-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_oomizuue-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_oomizuue-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wagakake-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/wagakake-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_sirakami-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/sirakami-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_tengu-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tengu-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tengu-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_TANGO-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/TANGO-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_TANGO-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_TANGO-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_TANGO-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_kirisima">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_kirisima</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_kirisima</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_tengu-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/tengu-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_sirakami-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_sirakami-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_sirakami-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tasirodake-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tasirodake-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tasirodake-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_kaimon-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_kaimon-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_kaimon-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_taheizan-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/taheizan-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_wagakake-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wagakake-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wagakake-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_jyujikyo-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/jyujikyo-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_sirakami-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/sirakami-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>50_1989_1999</name>
+		<open>1</open>
+		<Placemark>
+			<name>宝川温泉</name>
+			<description><![CDATA[<img src="https://images.trvl-media.com/hotels/6000000/5300000/5291200/5291190/5291190_40_z.jpg">]]></description>
+			<LookAt>
+				<longitude>139.0470396656626</longitude>
+				<latitude>36.84762390237874</latitude>
+				<altitude>0</altitude>
+				<heading>2.586745122434278e-11</heading>
+				<tilt>0</tilt>
+				<range>1003.70032388989</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_takaragawa-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.0470396656626,36.84762390237874,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>谷川連峰</name>
+			<description>山頂からは見慣れた上越国境の山岳風景が闊達に展開している。何と言っても一ノ倉沢の大岩壁が変わらぬ峻険差で屹立する。その左右のマチガ沢や幽ノ沢などの岩壁も豊富な残雪を彩り大屏風を広げている。この季節に山稜を彩るシャクナゲの赤いつぼみからピンクの満開の花弁まで、鮮やかに風景を引き立てている。足下にはイワカガミの可憐なピンクの群落が広がる。いつもながらの上越国境の山の良さに気持ちが和む。</description>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					138.968943282027,36.8329980797736,0 139.9266209584289,38.26970977877547,0 139.0470440881606,36.84672379557652,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>丹後山</name>
+			<description><![CDATA[<img src="https://blog-001.west.edge.storage-yahoo.jp/res/blog-c4-3a/yamyam3539/folder/1601330/63/52190663/img_0?1311245096">]]></description>
+			<LookAt>
+				<longitude>139.0913836484258</longitude>
+				<latitude>37.04698716753844</latitude>
+				<altitude>0</altitude>
+				<heading>3.677675378176265e-10</heading>
+				<tilt>0</tilt>
+				<range>1007.631415662268</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_TANGO-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.0913836484258,37.04698716753844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大水上山</name>
+			<description><![CDATA[<img src="http://www.yamakei-online.com/new_images/yamanavi/main_photo/18047_raw.jpg">]]></description>
+			<LookAt>
+				<longitude>139.0970092</longitude>
+				<latitude>37.05879090000001</latitude>
+				<altitude>0</altitude>
+				<heading>9.54166404439055e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.00000000028</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_oomizuue-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.0970092,37.0587909,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>十字峡</name>
+			<description><![CDATA[<img src="http://www2.tkc.pref.toyama.jp/imgstdy/000000836654.jpg">]]></description>
+			<LookAt>
+				<longitude>138.9759571060303</longitude>
+				<latitude>37.03815439078303</latitude>
+				<altitude>0</altitude>
+				<heading>0.2476881324615867</heading>
+				<tilt>1.806118172350612</tilt>
+				<range>8786.282156740863</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_jyujikyo-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.0313907039077,37.0562668656893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上越</name>
+			<description>なぜ今日はこんなに調子が出ないのか、とぼやきながら上越国境の秘境真っ只中をとぼとぼと歩く。それでも兎岳からの眺望はまさに天下一品。中ノ岳が鉄兜の大障壁のように迫ってきた。その灰黒の巨体は実に不気味だ。後ろに振り返れば、平ヶ岳の巨鯨のような大きい山体が、鮮緑の鎧を纏って、山名の通りの平らな姿でわだかまっている。まさに名山の貫禄だ。</description>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					139.0313289000097,37.05647743852274,0 139.0909925268147,37.04768541437041,0 139.0979621792343,37.05990838627351,0 139.0778367911476,37.08523012578841,0 139.0313289000097,37.05647743852274,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>和賀岳</name>
+			<description><![CDATA[<img src="http://www.forest-akita.jp/data/100mei-top/wagadake/12191.jpg">]]></description>
+			<LookAt>
+				<longitude>140.7541630999999</longitude>
+				<latitude>39.57046959999999</latitude>
+				<altitude>0</altitude>
+				<heading>-3.180554681463517e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000001884</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_wagakake-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.7541630999999,39.57046959999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>太平山</name>
+			<description><![CDATA[<img src="http://www.yamakei-online.com/new_images/yamanavi/main_photo/181_raw.jpg">]]></description>
+			<LookAt>
+				<longitude>140.3106807657265</longitude>
+				<latitude>39.79709016646893</latitude>
+				<altitude>0</altitude>
+				<heading>1.68909717468483e-10</heading>
+				<tilt>0</tilt>
+				<range>1005.083584493565</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_taheizan-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.3106807657265,39.79709016646893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>田代岳</name>
+			<description><![CDATA[<img src="http://www.yamakei-online.com/new_images/yamanavi/main_photo/179_raw.jpg">]]></description>
+			<LookAt>
+				<longitude>140.409155095808</longitude>
+				<latitude>40.4285957349442</latitude>
+				<altitude>0</altitude>
+				<heading>-7.507858353328704e-10</heading>
+				<tilt>0</tilt>
+				<range>1020.000260659154</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_tasirodake-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.409155095808,40.4285957349442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>白神山</name>
+			<description><![CDATA[<img src="http://livedoor.blogimg.jp/matunoyma_sato/imgs/d/7/d72d7af6.jpg">]]></description>
+			<LookAt>
+				<longitude>140.3005633160123</longitude>
+				<latitude>40.65536727580533</latitude>
+				<altitude>0</altitude>
+				<heading>0.02325317360273611</heading>
+				<tilt>5.83944683855397</tilt>
+				<range>3994.49779512366</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_sirakami-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.3005633160124,40.65536727580534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>経塚山</name>
+			<description><![CDATA[<img src="http://www.jalan.net/jalan/img/3/spot/0003/KL/44341ab2010003581_1.jpg">]]></description>
+			<LookAt>
+				<longitude>141.1682864305141</longitude>
+				<latitude>39.01749304364335</latitude>
+				<altitude>0</altitude>
+				<heading>-1.32966036832772e-07</heading>
+				<tilt>0</tilt>
+				<range>1046.470578177497</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_kyouduka-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>141.1682864305141,39.01749304364335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>東北地方の山々</name>
+			<description>ー深い森林の中の道を、いく筋もの沢を渡りながら進む。白神山地特有の深い深いブナ林となり、それがどこまでも果てしなく続く。今回の山登りで登ってきた東北地方の山々はいずれも見事なブナの森林を抱いていた。この白神のブナ林はその中の一つかもしれないが、やはり見事さが際立っている。深い森の中を遊泳するように進むのは不思議な体験だ。</description>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					141.1725716366394,39.00921627176181,0 140.7505314511007,39.5730757440265,0 140.3052739468035,39.80254555637148,0 140.4125786002961,40.43741127201232,0 140.3017950125313,40.6585280611929,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>剣山</name>
+			<description><![CDATA[<img src="http://looselife.me/wp-content/uploads/2016/05/SS000068-3-1024x715.jpg">]]></description>
+			<LookAt>
+				<longitude>134.0946735195689</longitude>
+				<latitude>33.85406284823087</latitude>
+				<altitude>0</altitude>
+				<heading>-1.369917062403113e-08</heading>
+				<tilt>0</tilt>
+				<range>1007.581176758386</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_turugiyama-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>134.0946735195689,33.85406284823087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>三嶺</name>
+			<description><![CDATA[<img src="http://shuumatsuryokouki.com/wp-content/uploads/%E4%B8%89%E5%B6%BA-3.jpg">]]></description>
+			<LookAt>
+				<longitude>133.9875849999999</longitude>
+				<latitude>33.83947169999994</latitude>
+				<altitude>0</altitude>
+				<heading>9.54166404439055e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000001614</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_miune-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>133.987585,33.83947169999995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>天狗塚</name>
+			<description><![CDATA[<img src="http://img-cdn.jg.jugem.jp/894/3120400/20151102_1404336.jpg">]]></description>
+			<LookAt>
+				<longitude>133.9433246393527</longitude>
+				<latitude>33.82702143718755</latitude>
+				<altitude>0</altitude>
+				<heading>-2.202559561350937e-09</heading>
+				<tilt>0</tilt>
+				<range>1019.023165725206</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_tengu-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>133.9433246393527,33.82702143718755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>四国の山旅</name>
+			<description><![CDATA[ー快晴の夜が明けた。外に出てみると、黄金の光に満たされた、この世のものとも思われない世界が広がっていた。山登りの楽しさ、山頂での喜びを感じるひと時だ。四国の山々の全山が展望できた。昨日苦労して縦走してきた剣山、次郎笈が大きく、日の出前のシルエットで浮かび上がる。久しぶりのご来光だ。全ての山々が大雲海の上に浮かび上がる。荘厳な夜明けだ。西の方角、はるかに遠く石槌山脈が青く浮かび上がる。
+そして手近の西の方角には、今日歩く行程の天狗塚がピラミダルな山容をみせ、そこに行き着くまでの山稜の緑鮮やかな、広々とした美しさはこの世のものとも思われない。<img src="http://shuumatsuryokouki.com/wp-content/uploads/%E4%B8%89%E5%B6%BA-3.jpg">]]></description>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					134.0958306636661,33.85616507951028,0 133.9884017987611,33.84037829614994,0 133.9440473650304,33.82768029237596,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>屋久島</name>
+			<description><![CDATA[ー投石岩屋あたりの岩と屋久笹、ヤクスギ、シャクナゲなどを配した自然の構図の素晴らしさはどうだろう。遠く、近く輝く山々があるこの景色は、珠玉という言葉そのものだ。そして夢見るように主峰、宮之浦岳に近く。頂上と思われるような小山を３つばかり越すと、やっと待望の山頂に到達した。素晴らしい展望だ。全山鮮緑のジュータンを敷き詰めたような、輝く山肌の美しさ！その先は海が広がっていて、会場の一角に硫黄島の噴煙が立ち上がっているのが見えた。<img src="http://www.tashirobekkan.co.jp/yakushimaPhoto/kan-miyanouradake01-L.jpg">]]></description>
+			<LookAt>
+				<longitude>130.5127142</longitude>
+				<latitude>30.3445936</latitude>
+				<altitude>0</altitude>
+				<heading>4.770832022195275e-15</heading>
+				<tilt>0</tilt>
+				<range>51183.91333831646</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_yakusima-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.5127142,30.34459360000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>開聞岳</name>
+			<description><![CDATA[<img src="http://art56.photozou.jp/pub/368/75368/photo/115962313_624.jpg">]]></description>
+			<LookAt>
+				<longitude>130.5258333</longitude>
+				<latitude>31.18083329999999</latitude>
+				<altitude>0</altitude>
+				<heading>1.272221872585407e-14</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000068</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_kaimon-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.5258333,31.18083329999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>霧島岳</name>
+			<description><![CDATA[<img src="http://17.pro.tok2.com/~vems/100/098-2/18-1.jpg">]]></description>
+			<LookAt>
+				<longitude>130.8894751072183</longitude>
+				<latitude>31.8926633193267</latitude>
+				<altitude>0</altitude>
+				<heading>0.02210483276401587</heading>
+				<tilt>5.70294593854898</tilt>
+				<range>4054.550418876922</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#msn_kirisima</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>130.8834548867042,31.89930074769484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>九州登山の一コマ</name>
+			<description><![CDATA[ー気がつけば快晴の空の下に居る自分に気がついた。なんと前方に高千穂岳が秀悦な姿を青々と映して、聳え立っているではないか。本当に神々しいくらいに気高い姿だ。掘割になったような歩きにくい下り坂をどんどん飛ばす。獅子戸岳あたりは灌木が低く、景色がひらけて気持ちがよい。新燃岳が眼前に広く、茶色の草に覆われて佇む。その山肌をまっすぐ登りつめると、有名な火口底の緑色の池が見渡せた。広い火口の緑を緩やかに登り、一番高い所に立った。<img src="http://blogimg.goo.ne.jp/user_image/3a/81/9fc5a79f10fa5511abe22ada191f9f9f.jpg">]]></description>
+			<TimeSpan id="ID">
+				<begin>1989</begin>
+				<end>1999</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					130.5243823400122,30.35405305564499,0 130.5327557897019,31.19030160936869,0 130.895055040883,31.91070729201839,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

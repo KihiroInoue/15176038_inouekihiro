@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>20_1959_1968.kml</name>
+	<Style id="sh_入り笠">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/入り笠.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_torihara">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/torihara.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ootori-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/ootori-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_苗場-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../data/icon/20/苗場-01-01.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_苗場-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_苗場-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_苗場-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_kitasamue-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_kitasamue-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_kitasamue-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_浅草岳-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_浅草岳-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_浅草岳-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_宮ヶ瀬">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_宮ヶ瀬</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_宮ヶ瀬</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_飯豊-01-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/飯豊-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_iwate-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/iwate-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_越え山荘">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/越え山荘.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_大船">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_大船</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_大船</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_飯豊-01-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_飯豊-01-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_飯豊-01-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_金峰-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/金峰-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_kitamata-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_kitamata-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_kitamata-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_見学-01">
+		<IconStyle>
+			<scale>3.07273</scale>
+			<Icon>
+				<href>../icon/20/見学-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_西穂高">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_西穂高</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_西穂高</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b3ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_越後駒ヶ岳-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/越後駒ヶ岳-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_iwate-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_iwate-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_iwate-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_kitasamue-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/kitasamue-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ootori-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/ootori-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_丹沢-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_丹沢-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_丹沢-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_白けもん-01-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_白けもん-01-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_白けもん-01-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_宮ヶ瀬">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/宮ヶ瀬.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_越え山荘">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/越え山荘.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_白けもん-01-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/白けもん-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_hatimann-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/hatimann-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_asahi-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/asahi-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_越後駒ヶ岳-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_越後駒ヶ岳-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_越後駒ヶ岳-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_samue-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_samue-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_samue-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_塔の岳">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_塔の岳</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_塔の岳</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_奥大日">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_奥大日</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_奥大日</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_土合-01-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/土合-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_kitamata-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/kitamata-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_torihara">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_torihara</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_torihara</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_奥大日-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/奥大日-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_金峰-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/金峰-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_越後駒ヶ岳-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>/../icon/20/越後駒ヶ岳-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_清水峠-01-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/清水峠-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ootori-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ootori-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ootori-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hatimann-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hatimann-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hatimann-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_越え山荘">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_越え山荘</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_越え山荘</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_torihara">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/torihara.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_nyuutou-01-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_nyuutou-01-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_nyuutou-01-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_北岳">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/北岳.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_浅草岳-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/浅草岳-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_苗場-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/苗場-01-01.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_北岳">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_北岳</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_北岳</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_土合-01-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/土合-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_宮ヶ瀬">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/宮ヶ瀬.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_西穂高">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/西穂高.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_iwate-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/iwate-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_清水峠-01-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_清水峠-01-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_清水峠-01-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_祖母山">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/祖母山.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_土合-01-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_土合-01-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_土合-01-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_大船">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/大船.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_北岳">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../北岳.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_丹沢-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/丹沢-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_塔の岳">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/塔の岳.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_金峰">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_金峰</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_金峰</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_種蒔-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/種蒔-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_中ノ岳-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/中ノ岳-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_入り笠">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/入り笠.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b3ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_清水峠-01-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/清水峠-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_kitamata-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/kitamata-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_見学">
+		<IconStyle>
+			<scale>2.6</scale>
+			<Icon>
+				<href>../icon/見学.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_samue-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>./icon/20/samue-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_nyuutou-01-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/nyuutou-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_塔の岳">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/塔の岳.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_入り笠">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_入り笠</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_入り笠</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_白けもん-01-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/白けもん-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_種蒔-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/種蒔-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_祖母山">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/祖母山.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_samue-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/samue-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_kitasamue-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/kitasamue-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_中ノ岳-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/中ノ岳-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_浅草岳-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/浅草岳-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_asahi-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_asahi-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_asahi-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_大船">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/大船.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_祖母">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_祖母</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_祖母</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_見学">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_見学</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_見学</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_種蒔-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_種蒔-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_種蒔-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_nyuutou-01-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/nyuutou-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_飯豊-01-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/飯豊-01-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_西穂高">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/西穂高.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_祖母">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/祖母.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_asahi-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/20/asahi-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_祖母山">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_祖母山</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_祖母山</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_丹沢-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/丹沢-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_中ノ岳-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_中ノ岳-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_中ノ岳-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_祖母">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/祖母.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_奥大日">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/奥大日.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_hatimann-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/20/hatimann-01.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>20_1959_1968</name>
+		<Placemark>
+			<name>丹沢三峰縦走</name>
+			<description>急坂の赤土で滑る大倉尾根を快調に登って行く。４時間ほどで展望のいい塔ノ岳に到着した。富士山が大きく姿を現した。ここからいよいよ丹沢三峰方面に足を踏み出す。北面の稜線なので、途端に雪が深くなってびっくりした。竜ヶ馬場と言われる広場みたいな草原が気持ちが良い。</description>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					139.1648994563881,35.45602777611064,0 139.1626598830521,35.47494346102293,0 139.2287544149837,35.52768793747558,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>宮ヶ瀬</name>
+			<description><![CDATA[<img src="http://userdisk.webry.biglobe.ne.jp/004/511/62/N000/000/003/122664819994916329318.jpg">]]></description>
+			<LookAt>
+				<longitude>139.2407013326915</longitude>
+				<latitude>35.5132371054699</latitude>
+				<altitude>0</altitude>
+				<heading>0.006420894176995087</heading>
+				<tilt>0</tilt>
+				<range>13755.38893726647</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_宮ヶ瀬</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.2287544527745,35.52659731812853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>剣岳</name>
+			<description><![CDATA[20歳。
+我々 も いよいよ 剱岳 山頂 に 向け て、 恐る恐る 足 を 踏み出す。 ものすごい 岩 の 険しい ルート の 連続 で 緊張 する。 そして 長い 鎖 が 張ら れ て いる トラバース の 場所 で、 こわごわ 渡り 始め た が、 恐ろしく て とうとう 足 が すくん で しまっ た。 下 を 見れ ば 千尋 の 谷 で 目 が 回り そう だ。 もう これ 以上 進む のは 無理 と 判断 し、 すごすご と 引き返す が、 致し方 ない 判断 だっ た。 帰路 は 一転、 気分 が 楽 になり、 剱御 前 から 雷鳥 坂 を 下り 室堂 に 出 た。 そして 今宵 は 弥陀ヶ原 ホテル に 投宿 し た。 　 この 剱岳・立山 への 山 旅 が 自分 の 生涯 に、 特に 若き 日 の 山登り に 深い 影響 を 与え た という こと を、 その 時 は まだ 気がつき も し なかっ た。<img src="http://blog-imgs-49.fc2.com/2/9/9/2999m/120112.jpg">]]></description>
+			<LookAt>
+				<longitude>137.6170758</longitude>
+				<latitude>36.62331219999999</latitude>
+				<altitude>0</altitude>
+				<heading>6.361109362927034e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000547</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_見学</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>137.6170758,36.62331219999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>立山＿越山荘</name>
+			<description><![CDATA[それにしても 小屋 の 混雑 が ものすごい。 真夜中、 暑く て 仕方 ない ので、 やっと 確保 し た 自分 の 寝 場所 を 抜け だし て 外 に 出 た。 煌々 と 月光 が 照らす 高山 の 風景。 夜 にも 拘わら ず、 眼下 には 室堂 平が 大きな 緑 の カーペット を 広げ、 それ を 囲む よう に 大日 連峰 や 浄土山 が 近々と 聳え て いる。 そして 反対 側 に 目 を 向けれ ば、 黒部 の 深い 谷 を 隔て て、 巨大 な 山脈 が 黒く うねうね と 連なっ て いる。 この 山脈 が 後 立山 連峰 で ある こと を、 まだ 知ら なかっ た。 この 月明かり の 下 の 山岳 風景 に 大きな 感動 を 与え られ て しまっ た。 何 かが 私 の 頭 の 中 で 弾け た よう な 衝撃 が 確か に あっ た。「 山 は いい！」 と。<img src="http://www.360navi.com/18toyama/04tateyama/06one/photo04.jpg">]]></description>
+			<LookAt>
+				<longitude>137.612053</longitude>
+				<latitude>36.5704561</latitude>
+				<altitude>0</altitude>
+				<heading>-3.180554681463517e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000001707</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_越え山荘</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>137.612053,36.57045609999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>別山</name>
+			<description><![CDATA[大汝山、 富士 の 折立、 真砂 岳 と ２ 時間 ほど 歩き、 ２８７４ ｍ の 別山 に 到着 し た。 眼前 に 剱岳 が 屹立 し て いる。 この 雄大 な 景観 を、 私 は 生涯 忘れる こと は 無い だろ う。「 岩 と 雪 の 殿堂」 とは よく 言っ た もの だ。 全体 的 には 立山 の 灰色 っぽい 山 体 に 比較 し て、 剱岳 は 黒光り し て いる よう な 山肌 で ある。 鉄兜 の よう に がっちり し た 山頂 部。 そこ に 向かっ て 一服 剱、 前 剱 といった 鋭い 前山 が 立ちはだかる。 東側 は 源 次郎 尾根 や 八 ッ 峰 が、 恐竜 の 背中 の 突起 の 様 な 鋭い 岩稜 を 空間 に 浮き あがら せる。 この 尾根 と 尾根 の 間 には 純白 の 平 蔵 谷、 長治 郎 谷 が 山頂 部 に 近い 上部 から 急 傾斜 で 黒部 渓谷 側 に 落ち込ん で いる。 まことに この 別山 からの 剱岳 の 姿 は、 非 の うち どころ が ない 絶妙 の バランス で、 見る 者 に 圧倒的 な 力 観 を 与える。 自然 が 織りなす 最高 の 芸術品 だ。<img src="http://userdisk.webry.biglobe.ne.jp/017/718/82/N000/000/002/131150489564213201623__DSC0138.gif">]]></description>
+			<LookAt>
+				<longitude>136.7657619</longitude>
+				<latitude>36.1055966</latitude>
+				<altitude>0</altitude>
+				<heading>-3.180554681463517e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000033</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_祖母山</styleUrl>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.7657619,36.1055966,2000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>入笠山</name>
+			<description><![CDATA[21歳。
+青空の下で大山脈の青白く光っている姿は神々しく、胸に強く焼きついたのだった。そしてこのような美しい山の姿を、山登りの機会を得て見尽くしたいと、と思った。
+<img src="http://manasuru.com/attachments/Image/IMG_5688.JPG">]]></description>
+			<LookAt>
+				<longitude>138.1715972</longitude>
+				<latitude>35.89635850000001</latitude>
+				<altitude>0</altitude>
+				<heading>-3.180554681463516e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.00000000202</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_入り笠</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.1716216675736,35.89607440277755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金峰山</name>
+			<description><![CDATA[21歳。
+どきん、とするような、神々しいというか、胸がすく思いというか、私が経験したことのない風景を目の当たりにした。
+　それは甲斐駒から聖岳に至る南アルプスの巨大な山脈の主峰のオンパレードであったのだ。その中でも北岳、間ノ岳、農鳥岳の白峰三山は抜きん出て高く、残雪も豊かに堂々とわだかまっている。この雄大な姿に私はすっかり興奮してしまい、言葉も発せられないほどであった。高山のもつ極めて美しく、気高い姿への印象がずっしりと胸に入り込んできた瞬間であった。
+<img src="http://www.yamakei-online.com/new_images/yamanavi/main_photo/351_raw.jpg">]]></description>
+			<LookAt>
+				<longitude>138.6254186</longitude>
+				<latitude>35.87158220000001</latitude>
+				<altitude>0</altitude>
+				<heading>6.361109362927034e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000092</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_金峰</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.6254186,35.87158220000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[岩手山 - <img src="http://www.hotel-ace.co.jp/blog/wp-content/uploads/2015/03/P1090636.jpg">]]></description>
+			<LookAt>
+				<longitude>141.0008333</longitude>
+				<latitude>39.85333330000001</latitude>
+				<altitude>0</altitude>
+				<heading>3.180554681463517e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000001772</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_iwate-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>141.0008333,39.85333330000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[乳頭山 - <img src="http://yamaasobi-yamaasobi.cocolog-nifty.com/photos/uncategorized/2013/10/09/1861.jpg">]]></description>
+			<LookAt>
+				<longitude>140.873728237427</longitude>
+				<latitude>39.79336863673701</latitude>
+				<altitude>0</altitude>
+				<heading>0.02274665965960311</heading>
+				<tilt>3.693139994184603</tilt>
+				<range>7353.8052597586</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_nyuutou-01-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.8386749249735,39.80325604341828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[八幡平 - <img src="http://hyakumeizan.up.n.seesaa.net/hyakumeizan/image/P7120172.jpg?d=a1">]]></description>
+			<LookAt>
+				<longitude>140.8547867</longitude>
+				<latitude>39.95681220000001</latitude>
+				<altitude>0</altitude>
+				<heading>3.180554681463516e-15</heading>
+				<tilt>0</tilt>
+				<range>999.9999999991622</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_hatimann-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>140.8548470346748,39.95663381337329,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>八幡平、岩手山、乳頭山縦走</name>
+			<description>日本アルプスとはおもむきの異なる、東方地方の持つおおらかで雄大な山に心を奪われた。草原状の山稜、豊かな針葉樹林帯、火山性の外輪山の岩稜等を繋ぎながら縦走する楽しさ。一山終えれば、藤七温泉、松川温泉、滝ノ上温泉、黒湯等の素朴な温泉宿が待っていて、山旅の疲れを豊かな野天風呂の浴槽で癒した。</description>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					140.857643700908,39.9547463519014,0 141.0041164716637,39.85094592630707,0 141.001838025205,39.85182412208096,0 141.0007005571657,39.8531382966007,0 141.0007014370282,39.8535758456668,0 140.839976572872,39.80465159579889,0 140.8376974371854,39.80377530900493,0 140.8388369466703,39.80377571661301,0 140.8394066972074,39.80377591496372,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>大船山</name>
+			<description><![CDATA[<img src="http://pds.exblog.jp/pds/1/201412/09/35/e0272335_18551616.jpg">]]></description>
+			<LookAt>
+				<longitude>131.2805894</longitude>
+				<latitude>33.09501120000001</latitude>
+				<altitude>0</altitude>
+				<heading>3.180554681463517e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000216</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_大船</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>131.2805972863175,33.09472710277988,2000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>祖母山</name>
+			<description><![CDATA[<img src="http://www.yamaquest.com/image/mt/mt971.jpg">]]></description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>1959</begin>
+					<end>2017</end>
+				</gx:TimeSpan>
+				<longitude>131.4246804890397</longitude>
+				<latitude>32.88748345601559</latitude>
+				<altitude>0</altitude>
+				<heading>20.80162067471155</heading>
+				<tilt>7.363539917125729</tilt>
+				<range>131454.1732116404</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_祖母</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>131.3469254873727,32.8277575027737,2000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>九重連峰</name>
+			<description><![CDATA[九州といえども春浅い山々は残雪も多い。苦労して登った快晴の祖母山山頂から主だった九州山岳を展望し、「多くの山が九州にもあるな」と感じ入った。
+
+
+
+<img src="http://mihara-yamanokai.org/wp/wp-content/uploads/2013/11/IMG_6145.jpg">]]></description>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					131.2805001664815,33.09834699768827,2000 131.3474648761221,32.82325808098548,2000 131.3446422981604,32.82325774225033,2000
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>奥大日岳</name>
+			<description><![CDATA[23歳。
+そして連峰の最高峰奥大日岳(2606m)に到達した。この時の風景は生涯忘れられない。剣岳が圧倒的な迫力で眼前に屹立している。ほぼ三角錐の形を、悪絶を以ってなる東大谷の底から立ち上げ、威風堂々、鋭い岩稜には雪をも払い鎮座している。「俺はこのような剣岳との出会いを熱望して、ここまで来たんだな」と感慨深くつぶやいた。<img src="http://www.kamoshikanagai.jp/tateyama05/dainichi3.JPG">]]></description>
+			<LookAt>
+				<longitude>137.5809923</longitude>
+				<latitude>36.5983753</latitude>
+				<altitude>0</altitude>
+				<heading>1.272221872585407e-14</heading>
+				<tilt>0</tilt>
+				<range>1000.000000002064</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_奥大日</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>137.5819716234081,36.5994257966776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[白毛門 - <img src="http://101yamaaruki.up.n.seesaa.net/101yamaaruki/image/Pc270038.jpg?d=a1">]]></description>
+			<LookAt>
+				<longitude>138.9672752</longitude>
+				<latitude>36.8595619</latitude>
+				<altitude>0</altitude>
+				<heading>-0</heading>
+				<tilt>0</tilt>
+				<range>1000.00000000196</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_白けもん-01-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.9673495175062,36.85935708570853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[朝日岳 - <img src="http://userdisk.webry.biglobe.ne.jp/014/721/41/N000/000/000/2007100710.jpg">]]></description>
+			<LookAt>
+				<longitude>139.9258181</longitude>
+				<latitude>38.26898660000001</latitude>
+				<altitude>0</altitude>
+				<heading>9.541664044390549e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000292</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_asahi-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.9258601761042,38.2687289304321,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>清水峠</description>
+			<LookAt>
+				<longitude>139.3317727726251</longitude>
+				<latitude>37.01183093527052</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001544133431778942</heading>
+				<tilt>0</tilt>
+				<range>49964.79497749353</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_清水峠-01-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3032843744101,36.9051757022351,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description>土合駅</description>
+			<LookAt>
+				<longitude>138.9670159</longitude>
+				<latitude>36.8313766</latitude>
+				<altitude>0</altitude>
+				<heading>3.180554681463517e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000002145</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_土合-01-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.9671397169454,36.83122464096786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>上越国境の周回コース</name>
+			<description>白毛門(1720m)の山頂には３時間ほどかかったが、山頂に着く頃にはすっかり明るくなり、朝日がまぶしく景色を浮き立たせる素晴らしい景観に言葉も出ない。この白毛門街道は、何と言っても湯檜曽川対岸に屹立する谷川岳の岩壁群を、正面から眺めることのできる大展望台なのだ。その素晴らしい岩壁群が朝日を受けて、陰影のある茶黒い色彩を存分に見せつけている。中央部にある大きい岩壁のフェースが有名な一ノ倉沢だ。谷筋には豊富な残雪が岩壁の色彩を浮き上がらせている。「これが上越国境縦走の醍醐味か」と大いに気を良くした。</description>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					138.9697438612645,36.86636947602946,0 139.9270273765276,38.2729286764468,0 139.3062285097105,36.90721858737645,0 138.9687702539453,36.8337460576095,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[越後駒ケ岳 -
+上部の雪渓より流れ出す水に潤された湿潤性の山肌いっぱいに高山植物が咲き乱れ、山上の楽園となっている。頂上に立つと私の歓喜は極みに達した。遥けくもやってきた駒の頂上からの展望は、今までの苦労を補って余りあるものであった。
+南方に眼を転ずれば、越後三山最高峰の中ノ岳、穏やかな姿もさることながら、八海山の荒々しい岩峰が特に印象的である。
+そして私が感動の目を光らせたのは、遥か西の方、空の青さをうつす如く、いかなる絵描きも出すことができないような、日本海の美しいライトブルーの色を見たからだ。全くその瑠璃色は美しいものであった。<img src="http://www.seiyo.org/yama/14/echikoma/echikoma141.jpg">]]></description>
+			<LookAt>
+				<longitude>139.0833332999995</longitude>
+				<latitude>37.11666670000002</latitude>
+				<altitude>0</altitude>
+				<heading>1.90833280887811e-14</heading>
+				<tilt>0</tilt>
+				<range>999.9999999989152</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_越後駒ヶ岳-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.0834575825873,37.11689794186277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[浅草岳 - 浅草岳のまことに優美な頂上が見えた。本峰は目もさめるようなグリーンであり、そのグリーンの中に紅葉のはしりか、灌木が赤く黄色く色づいて、どんな織物師でもこれほど鮮やかな色彩を織ることはできないであろう、見事な風景であった。
+やっとの思いで頂上にたどり着けば四囲の展望に目を奪われる。まず守門が実に堂々としていて、1537mの高度を忘れさせる。そして「あ！」と声をあげた。飯豊が新雪を輝かせて北の方に聳えていたからであった。まさか雪を冠っているとは思わなかっただけに、その北の山の性格と印象は無限の愛おしさと懐かしさを思いだせるには十分であった。貫禄ある飯豊よ！<img src="http://livedoor.blogimg.jp/newyork2006/imgs/d/2/d2ec0f2b.jpg?f73738b7">]]></description>
+			<LookAt>
+				<longitude>139.2339433</longitude>
+				<latitude>37.3437272</latitude>
+				<altitude>0</altitude>
+				<heading>-0</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000482</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_浅草岳-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.2339682313846,37.34366773779343,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[苗場山 - それは実に果てしなく、ゆるやかに広がっていた。全面きつね色をした原のそこここにおびただしい池塘が点在している。その池塘の間には丈の短い針葉樹がかたまって生えていて、庭園風になっている。そしてこの大きな平頂のかなたには、ぐるりと山々がかこんでいるのだ。<img src="http://6984f4dbb661e395.lolipop.jp/wp-content/uploads/2012/10/SDIM0297-1350x900.jpg">]]></description>
+			<LookAt>
+				<longitude>138.6904931000001</longitude>
+				<latitude>36.8457325</latitude>
+				<altitude>0</altitude>
+				<heading>6.361109362927034e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000584</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_苗場-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.6905839165794,36.84595052806299,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[中ノ岳 -
+空は朝より晴れてきて、雲は浮雲となってきた。そしてこの中ノ岳から兎、大水上、丹後、越後沢、下津川、小沢、巻機へと連なる、ゆるやかな魅力に満ちた山脈と、兎で別れて平ヶ岳へといく山脈を、熱い眼をもっていつまでも見ていた。私の「青い山脈」はここにあるからだ。そこには際立って名の知れた立派な名山はないが、人で言えば「ひなには稀な美人」であり、愛しげで潤いのある、色白の美少女であるからだ。<img src="http://www.yamakei-online.com/new_images/yamanavi/main_photo/306_raw.jpg">]]></description>
+			<LookAt>
+				<longitude>139.0776049</longitude>
+				<latitude>37.08521990000001</latitude>
+				<altitude>0</altitude>
+				<heading>6.361109362927034e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000746</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_中ノ岳-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.0775966179764,37.08505472720521,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[飯豊山 - <img src="http://outdoor.geocities.jp/la_ponsu/P8080084.JPG">]]></description>
+			<LookAt>
+				<longitude>139.7071939</longitude>
+				<latitude>37.8548874</latitude>
+				<altitude>0</altitude>
+				<heading>-3.180554681463517e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.0000000017</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_飯豊-01-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7072190032607,37.85482793779337,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[種蒔山 - <img src="http://www.geocities.jp/pikagoro33/mountain/2007/iide_070623/IMG_8851a.jpg">]]></description>
+			<LookAt>
+				<longitude>139.7311735024364</longitude>
+				<latitude>37.83068454586643</latitude>
+				<altitude>0</altitude>
+				<heading>1.363370208646788e-09</heading>
+				<tilt>0</tilt>
+				<range>1009.142997794737</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_種蒔-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7311735024364,37.83068454586643,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[北股岳 - <img src="http://www.yamakei-online.com/new_images/yamanavi/main_photo/243_raw.jpg">]]></description>
+			<LookAt>
+				<longitude>139.6385475</longitude>
+				<latitude>37.87983329999999</latitude>
+				<altitude>0</altitude>
+				<heading>-6.361109362927034e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000375</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_kitamata-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.6385558705663,37.87958884426905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>飯豊連峰縦走</name>
+			<description>そして種蒔山を越した時、私は思わず立ち止まってしまった。広々とした緑の大草原が展開している。ニッコウキスゲなどの高山植物があちこち咲いている桃源郷であった。雪の白さも緑一色の中で実に新鮮で美しい。私は『燃ゆる若者たち』という青春山岳映画の主題歌を歌い出す。
+「空の青さに心染めて　雪の白さに心あずけて　ひたすらに頂き目指し一人ゆくこの幸せ許して許してくれよ」。
+私はなぜか涙が出そうになった。二人の若い女性がニッコウキスゲの群落の中に静かに腰をおろし、うっとりと夢見るような面持ちであった。その姿は、都会のどんなに美しい人が見せる姿よりも、さらに清純な美しさがこもっていた。
+
+ー快晴の朝を迎えた。朝日連峰がぐっと近づき、この飯豊と並び競争しているように稜線の波頭を煌めかす。扇ノ地紙のあたりのビロードのような、つややかなみどりの美しさは例えようもない。この時、私が吸っている空気は全く混じり気のない透明この上ないものであると同時に、何か薄水色のさらさらした波立つ何か出会ったような気がする。私は何かを吸うことにより、この世で最も幸福な求道者になったような気がした。</description>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					139.7301995293589,37.83172952906634,0 139.7073888756522,37.85579583317331,0 139.6380698972991,37.88037977908001,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[鳥原山 - <img src="http://livedoor.blogimg.jp/happajuku/imgs/f/b/fb862dc7.jpg">]]></description>
+			<LookAt>
+				<longitude>139.9672697999999</longitude>
+				<latitude>38.27098930000001</latitude>
+				<altitude>0</altitude>
+				<heading>6.361109362927034e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000232</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_torihara</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.9672697999999,38.27098930000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[北寒江山 - <img src="http://2.bp.blogspot.com/-dgQts0FLnFs/VandNpxyZ4I/AAAAAAAAZQs/WzWK0w-8Ywk/s1600/4990.JPG">]]></description>
+			<LookAt>
+				<longitude>139.8768434</longitude>
+				<latitude>38.3136122</latitude>
+				<altitude>0</altitude>
+				<heading>3.180554681463516e-15</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000452</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_kitasamue-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.8768434,38.3136122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[寒江山  - <img src="http://livedoor.blogimg.jp/superdioaf27/imgs/c/4/c485a658.JPG">]]></description>
+			<LookAt>
+				<longitude>139.8778953706885</longitude>
+				<latitude>38.3102326635091</latitude>
+				<altitude>0</altitude>
+				<heading>2.107826740163547e-09</heading>
+				<tilt>0</tilt>
+				<range>1018.257536272108</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_samue-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.8791042240798,38.30622970774117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<description><![CDATA[大鳥池 - <img src="http://userdisk.webry.biglobe.ne.jp/014/733/66/N000/000/007/135530951934013126175_DSC05486.jpg">]]></description>
+			<LookAt>
+				<longitude>139.8503988082987</longitude>
+				<latitude>38.33671199762081</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004657973730151191</heading>
+				<tilt>0</tilt>
+				<range>15237.19106014322</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_ootori-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.8284414505437,38.35956201024706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>朝日連峰縦走</name>
+			<description>しばらくして誰かが「霧が晴れてきた」と叫んだので、窓辺により外を見れば、ガスの切れ間から信じられないほど艶やかな、光り輝く緑の朝日連峰が現れた。芝草が風になびき、あたかも緑の姿を立たせるが如く、ゆるやかに山腹の下から上へ、風の吹く筋道のままに揺らめいている。なんという清々しさだろう。
+
+ー眼下には大鳥池の熊の皮を広げたような濃紺の水の色が、まことに美しい。この美しい山頂からの風景にすっかり満足し、気合を入れて大鳥池目指して駈け下る。楽しい気分と一人の不安とが入り混じった複雑な心境だ。</description>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					139.9684674174415,38.2720522620962,0 139.8805480736397,38.30739085717239,0 139.8758109117555,38.31584663106376,0 139.8277171811327,38.36089015061555,0
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>北岳</name>
+			<description><![CDATA[頭上の北岳頂上部は飛んでくる雲や雪を払い、端然と雄姿を誇示する、仙丈は緑の森林地帯に真っ白な雪の化粧を施し、めったに見られない美景だ。甲斐駒は巨大な白い光のかたまりのように輝いている。遠くの八ヶ岳が青い山脈となって、くっきりと北側の青い光に浮かぶ。風も相変わらず強いが、それが全体の景色を生き生きと動的にしている。こんな風景を見たのは本当に初めてだ。
+<img src="http://www.minami-alpskankou.jp/image/%E5%8E%B3%E5%AF%92%E3%81%AE%E5%8C%97%E5%B2%B3%EF%BC%94%EF%BC%8D%EF%BC%92.JPG">]]></description>
+			<LookAt>
+				<longitude>138.2389852964678</longitude>
+				<latitude>35.674611504819</latitude>
+				<altitude>0</altitude>
+				<heading>1.236599660153015e-11</heading>
+				<tilt>0</tilt>
+				<range>1001.242970973924</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_北岳</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>138.2394168933022,35.67518702006054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>西穂高岳</name>
+			<description><![CDATA[そしてついに西穂高岳の山頂にたどり着いた。荘厳な冬の景色に圧倒される。
+奥穂高岳と前穂高岳を結ぶ吊尾根が大きく眼前に弓を引く。前穂の山稜がすっきりとした透明感のある蒼色でまことに美しい。そして穂高の北方には槍ヶ岳が研ぎ澄まされた刀の先のように立っているではないか。雪も付けずに黒く輝いている。笠ヶ岳から眼を徐々に右の方へ移して行くと、双六岳、黒部五郎岳、薬師岳、立山等の大立者が真っ白堂々と連なっている。この白銀のパノラマ絵図は私の生涯の宝物になった。<img src="http://outdoor.geocities.jp/takatyanyan/2013/20130721nisiho/28.jpg">]]></description>
+			<LookAt>
+				<longitude>137.6365589222195</longitude>
+				<latitude>36.28563207169686</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2204946038408083</heading>
+				<tilt>0.9489459814484343</tilt>
+				<range>3943.787754623969</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_西穂高</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>137.6319545135421,36.28304085217707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塔ノ岳</name>
+			<description><![CDATA[<img src="http://kenshibu.c.blog.so-net.ne.jp/_images/blog/_e51/kenshibu/P1020086-88fa3.jpg">]]></description>
+			<LookAt>
+				<longitude>139.1632582</longitude>
+				<latitude>35.4540349</latitude>
+				<altitude>0</altitude>
+				<heading>1.272221872585407e-14</heading>
+				<tilt>0</tilt>
+				<range>1000.00000000169</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_塔の岳</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.1632582,35.4540349,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>丹沢山</name>
+			<description><![CDATA[<img src="http://blog-imgs-29.fc2.com/o/r/i/orimasa2009/20090512104217f44.jpg">]]></description>
+			<LookAt>
+				<longitude>139.1629995</longitude>
+				<latitude>35.47458530000001</latitude>
+				<altitude>0</altitude>
+				<heading>1.272221872585407e-14</heading>
+				<tilt>0</tilt>
+				<range>1000.000000000501</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1959</begin>
+				<end>1969</end>
+			</TimeSpan>
+			<styleUrl>#msn_丹沢-01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.1629995,35.47458530000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
