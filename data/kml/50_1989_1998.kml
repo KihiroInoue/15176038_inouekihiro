@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>50_1989_1999.kml</name>
-	<Style id="sn_tasirodake-01">
+	<name>50_1989_2000.kml</name>
+	<open>1</open>
+	<StyleMap id="msn_wagakake-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wagakake-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wagakake-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_oomizuue-01">
 		<IconStyle>
-			<scale>2.5</scale>
+			<scale>2.95455</scale>
 			<Icon>
-				<href>../icon/50/tasirodake-01.png</href>
+				<href>../icon/50/oomizuue-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sn_yakusima-01">
+	<Style id="sh_wagakake-01">
 		<IconStyle>
-			<scale>2.5</scale>
+			<scale>2.95455</scale>
 			<Icon>
-				<href>../icon/30/yakusima-01.png</href>
+				<href>../icon/50/wagakake-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_kyouduka-01">
 		<IconStyle>
@@ -25,24 +46,11 @@
 				<href>../icon/50/kyouduka-01.png</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<StyleMap id="msn_miune-01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_miune-01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_miune-01</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_jyujikyo-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/50/jyujikyo-01.png</href>
-			</Icon>
-		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin000">
 		<IconStyle>
@@ -60,32 +68,47 @@
 				<href>../icon/50/miune-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_yakusima-01">
+	<Style id="sh_kirisima">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/30/kirisima.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_oomizuue-01">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_yakusima-01</styleUrl>
+			<styleUrl>#sn_oomizuue-01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_yakusima-01</styleUrl>
+			<styleUrl>#sh_oomizuue-01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_yakusima-01">
+	<Style id="sn_oomizuue-01">
 		<IconStyle>
-			<scale>2.95455</scale>
+			<scale>2.5</scale>
 			<Icon>
-				<href>../icon/30/yakusima-01.png</href>
+				<href>../icon/50/oomizuue-01.png</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<Style id="sh_kaimon-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/30/kaimon-01.png</href>
-			</Icon>
-		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
@@ -97,41 +120,64 @@
 			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_turugiyama-01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_turugiyama-01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_turugiyama-01</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_tengu-01">
+	<Style id="sh_taheizan-01">
 		<IconStyle>
-			<scale>2.5</scale>
+			<scale>2.95455</scale>
 			<Icon>
-				<href>../icon/50/tengu-01.png</href>
+				<href>../icon/50/taheizan-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_kyouduka-01">
+	<StyleMap id="msn_sirakami-01">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_kyouduka-01</styleUrl>
+			<styleUrl>#sn_sirakami-01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_kyouduka-01</styleUrl>
+			<styleUrl>#sh_sirakami-01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_oomizuue-01">
+	<Style id="sh_miune-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/miune-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_taheizan-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_taheizan-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_taheizan-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_turugiyama-01">
 		<IconStyle>
 			<scale>2.5</scale>
 			<Icon>
-				<href>../icon/50/oomizuue-01.png</href>
+				<href>../icon/50/turugiyama-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
@@ -151,81 +197,54 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_taheizan-01">
+	<Style id="sh_sirakami-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/sirakami-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_kirisima">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_taheizan-01</styleUrl>
+			<styleUrl>#sn_kirisima</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_taheizan-01</styleUrl>
+			<styleUrl>#sh_kirisima</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_turugiyama-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/50/turugiyama-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_takaragawa-01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_takaragawa-01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_takaragawa-01</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_taheizan-01">
+	<Style id="sn_kirisima">
 		<IconStyle>
 			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/taheizan-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_turugiyama-01">
-		<IconStyle>
-			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/turugiyama-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_kyouduka-01">
-		<IconStyle>
-			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/kyouduka-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_takaragawa-01">
-		<IconStyle>
-			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/takaragawa-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_tasirodake-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/50/tasirodake-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_kirisima">
-		<IconStyle>
-			<scale>2.95455</scale>
 			<Icon>
 				<href>../icon/30/kirisima.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_jyujikyo-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/jyujikyo-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<StyleMap id="msn_jyujikyo-01">
 		<Pair>
@@ -237,6 +256,19 @@
 			<styleUrl>#sh_jyujikyo-01</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_jyujikyo-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/jyujikyo-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_takaragawa-01">
 		<IconStyle>
 			<scale>2.95455</scale>
@@ -244,107 +276,50 @@
 				<href>../icon/50/takaragawa-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_miune-01">
+	<Style id="sh_tengu-01">
 		<IconStyle>
 			<scale>2.95455</scale>
 			<Icon>
-				<href>../icon/50/miune-01.png</href>
+				<href>../icon/50/tengu-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sn_kirisima">
+	<Style id="sn_yakusima-01">
 		<IconStyle>
 			<scale>2.5</scale>
 			<Icon>
-				<href>../icon/30/kirisima.png</href>
+				<href>../icon/30/yakusima-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_TANGO-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/50/TANGO-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_oomizuue-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/50/oomizuue-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_kaimon-01">
+	<Style id="sn_tengu-01">
 		<IconStyle>
 			<scale>2.5</scale>
 			<Icon>
-				<href>../icon/30/kaimon-01.png</href>
+				<href>../icon/50/tengu-01.png</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_wagakake-01">
-		<IconStyle>
-			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/wagakake-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_oomizuue-01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_oomizuue-01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_oomizuue-01</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_wagakake-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/50/wagakake-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_sirakami-01">
-		<IconStyle>
-			<scale>2.95455</scale>
-			<Icon>
-				<href>../icon/50/sirakami-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_tengu-01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_tengu-01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_tengu-01</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_TANGO-01">
-		<IconStyle>
-			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/TANGO-01.png</href>
-			</Icon>
-		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<StyleMap id="msn_TANGO-01">
 		<Pair>
@@ -356,34 +331,29 @@
 			<styleUrl>#sh_TANGO-01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_kirisima">
+	<StyleMap id="msn_turugiyama-01">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_kirisima</styleUrl>
+			<styleUrl>#sn_turugiyama-01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_kirisima</styleUrl>
+			<styleUrl>#sh_turugiyama-01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_tengu-01">
+	<Style id="sh_tasirodake-01">
 		<IconStyle>
 			<scale>2.95455</scale>
 			<Icon>
-				<href>../icon/50/tengu-01.png</href>
+				<href>../icon/50/tasirodake-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_sirakami-01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_sirakami-01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_sirakami-01</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_tasirodake-01">
 		<Pair>
 			<key>normal</key>
@@ -394,6 +364,165 @@
 			<styleUrl>#sh_tasirodake-01</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_kaimon-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/30/kaimon-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_yakusima-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/30/yakusima-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_tengu-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tengu-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tengu-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_kaimon-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/30/kaimon-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_TANGO-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/TANGO-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_tasirodake-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/tasirodake-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_kyouduka-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/kyouduka-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_turugiyama-01">
+		<IconStyle>
+			<scale>2.95455</scale>
+			<Icon>
+				<href>../icon/50/turugiyama-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wagakake-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/wagakake-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_miune-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_miune-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_miune-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_taheizan-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/taheizan-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_TANGO-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/TANGO-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_kaimon-01">
 		<Pair>
 			<key>normal</key>
@@ -402,6 +531,39 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_kaimon-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_sirakami-01">
+		<IconStyle>
+			<scale>2.5</scale>
+			<Icon>
+				<href>../icon/50/sirakami-01.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_kyouduka-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_kyouduka-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_kyouduka-01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_yakusima-01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_yakusima-01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_yakusima-01</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin00">
@@ -414,42 +576,31 @@
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_taheizan-01">
+	<Style id="sn_takaragawa-01">
 		<IconStyle>
-			<scale>2.95455</scale>
+			<scale>2.5</scale>
 			<Icon>
-				<href>../icon/50/taheizan-01.png</href>
+				<href>../icon/50/takaragawa-01.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_wagakake-01">
+	<StyleMap id="msn_takaragawa-01">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wagakake-01</styleUrl>
+			<styleUrl>#sn_takaragawa-01</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wagakake-01</styleUrl>
+			<styleUrl>#sh_takaragawa-01</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_jyujikyo-01">
-		<IconStyle>
-			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/jyujikyo-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_sirakami-01">
-		<IconStyle>
-			<scale>2.5</scale>
-			<Icon>
-				<href>../icon/50/sirakami-01.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<Folder>
-		<name>50_1989_1999</name>
+		<name>50_1989_2000</name>
 		<open>1</open>
 		<Placemark>
 			<name>宝川温泉</name>
@@ -465,7 +616,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_takaragawa-01</styleUrl>
 			<Point>
@@ -478,7 +629,7 @@
 			<description>山頂からは見慣れた上越国境の山岳風景が闊達に展開している。何と言っても一ノ倉沢の大岩壁が変わらぬ峻険差で屹立する。その左右のマチガ沢や幽ノ沢などの岩壁も豊富な残雪を彩り大屏風を広げている。この季節に山稜を彩るシャクナゲの赤いつぼみからピンクの満開の花弁まで、鮮やかに風景を引き立てている。足下にはイワカガミの可憐なピンクの群落が広がる。いつもながらの上越国境の山の良さに気持ちが和む。</description>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#m_ylw-pushpin00</styleUrl>
 			<LineString>
@@ -502,7 +653,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_TANGO-01</styleUrl>
 			<Point>
@@ -524,7 +675,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_oomizuue-01</styleUrl>
 			<Point>
@@ -546,7 +697,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_jyujikyo-01</styleUrl>
 			<Point>
@@ -559,7 +710,7 @@
 			<description>なぜ今日はこんなに調子が出ないのか、とぼやきながら上越国境の秘境真っ只中をとぼとぼと歩く。それでも兎岳からの眺望はまさに天下一品。中ノ岳が鉄兜の大障壁のように迫ってきた。その灰黒の巨体は実に不気味だ。後ろに振り返れば、平ヶ岳の巨鯨のような大きい山体が、鮮緑の鎧を纏って、山名の通りの平らな姿でわだかまっている。まさに名山の貫禄だ。</description>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<LineString>
@@ -583,7 +734,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_wagakake-01</styleUrl>
 			<Point>
@@ -605,7 +756,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_taheizan-01</styleUrl>
 			<Point>
@@ -627,7 +778,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_tasirodake-01</styleUrl>
 			<Point>
@@ -649,7 +800,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_sirakami-01</styleUrl>
 			<Point>
@@ -671,7 +822,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_kyouduka-01</styleUrl>
 			<Point>
@@ -684,7 +835,7 @@
 			<description>ー深い森林の中の道を、いく筋もの沢を渡りながら進む。白神山地特有の深い深いブナ林となり、それがどこまでも果てしなく続く。今回の山登りで登ってきた東北地方の山々はいずれも見事なブナの森林を抱いていた。この白神のブナ林はその中の一つかもしれないが、やはり見事さが際立っている。深い森の中を遊泳するように進むのは不思議な体験だ。</description>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#m_ylw-pushpin00</styleUrl>
 			<LineString>
@@ -708,7 +859,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_turugiyama-01</styleUrl>
 			<Point>
@@ -730,7 +881,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_miune-01</styleUrl>
 			<Point>
@@ -752,7 +903,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_tengu-01</styleUrl>
 			<Point>
@@ -766,7 +917,7 @@
 そして手近の西の方角には、今日歩く行程の天狗塚がピラミダルな山容をみせ、そこに行き着くまでの山稜の緑鮮やかな、広々とした美しさはこの世のものとも思われない。<img src="http://shuumatsuryokouki.com/wp-content/uploads/%E4%B8%89%E5%B6%BA-3.jpg">]]></description>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<LineString>
@@ -790,7 +941,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_yakusima-01</styleUrl>
 			<Point>
@@ -812,7 +963,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_kaimon-01</styleUrl>
 			<Point>
@@ -834,7 +985,7 @@
 			</LookAt>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#msn_kirisima</styleUrl>
 			<Point>
@@ -847,7 +998,7 @@
 			<description><![CDATA[ー気がつけば快晴の空の下に居る自分に気がついた。なんと前方に高千穂岳が秀悦な姿を青々と映して、聳え立っているではないか。本当に神々しいくらいに気高い姿だ。掘割になったような歩きにくい下り坂をどんどん飛ばす。獅子戸岳あたりは灌木が低く、景色がひらけて気持ちがよい。新燃岳が眼前に広く、茶色の草に覆われて佇む。その山肌をまっすぐ登りつめると、有名な火口底の緑色の池が見渡せた。広い火口の緑を緩やかに登り、一番高い所に立った。<img src="http://blogimg.goo.ne.jp/user_image/3a/81/9fc5a79f10fa5511abe22ada191f9f9f.jpg">]]></description>
 			<TimeSpan id="ID">
 				<begin>1989</begin>
-				<end>1999</end>
+				<end>2000</end>
 			</TimeSpan>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<LineString>

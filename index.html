@@ -152,6 +152,14 @@
 		viewPointsArray[1] = new viewPoints("富士山", 35.3645, 138.7109, 0, -30, 110000);
 		viewPointsArray[2] = new viewPoints("初期視点", 35.2521, 135.3456, 0, -50, 1800000);
 
+		viewPointsArray[3] = new viewPoints("北海道", 43.1729, 141.871, 0, -50, 500000);
+		viewPointsArray[4] = new viewPoints("東北", 39.1819, 140.4959, 0, -50, 700000);
+		viewPointsArray[5] = new viewPoints("上越", 36.3723, 137.371, 0, -50, 500000);
+		viewPointsArray[6] = new viewPoints("近畿", 34.2045, 135.5151, 0, -50, 300000);
+		viewPointsArray[7] = new viewPoints("中国地方", 34.4445, 132.465, 0, -50, 300000);
+		viewPointsArray[8] = new viewPoints("四国", 33.4049, 133.2629, 0, -50, 300000);
+		viewPointsArray[9] = new viewPoints("九州", 32.2734, 130.5656, 0, -50, 500000);
+
 		//視点メニューを作成
 
 		var viewPointChangeMenu = document.getElementById('slideMenuViewPoint');
@@ -408,7 +416,7 @@
 			}
 
 
-			var timeString = y + '歳';
+			var timeString =  '著者が '　+ y + '代 で登った山';
 			if (timeString != displayTime) {
 				displayTime = timeString;
 				timeCounter(displayTime);

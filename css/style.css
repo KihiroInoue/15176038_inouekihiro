@@ -30,8 +30,9 @@ a:hover {
 /*Cesiumインターフェイス関連*/
 
 .cesium-infoBox-iframe {
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 700px;
+
     overflow: visible;
     padding: 0px;
     margin: 10px;
@@ -39,8 +40,8 @@ a:hover {
 }
 
 .cesium-infoBox {
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 700px;
     overflow: visible;
     padding: 0px;
     margin: 10px;
@@ -51,8 +52,8 @@ a:hover {
 }
 
 .cesium-infoBox-visible {
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 700px;
     overflow: visible;
     padding: 0px;
     margin: 0px;
@@ -108,13 +109,13 @@ button.cesium-infoBox-close {
     z-index: 10005;
 }
 
-#buttonGeo {
+/*#buttonGeo {
     position: absolute;
-    bottom: 8px;
+    bottom: 200px;
     left: 50%;
     margin-left: -20px;
     opacity: 0.9;
-}
+}*/
 
 /*ここまで変更*/
 
@@ -324,10 +325,10 @@ input {
 
 #timeCounter {
     position:absolute;
-    font-size:18px;
+    font-size:15px;
     color:white;
-    left:8px;
-    bottom:300px;
+    left:50%;
+    bottom:30px;
     z-index:30000;
 }
 
@@ -340,7 +341,7 @@ input {
 	visibility:hidden;
 }
 .cesium-timeline-icon16 {
-	border: 1px solid rgba(0,0,0,0.5);
+	border: 1px solid rgba(,0,0,0.5);
     height:22px;
 	width:33px;
 	background: #f2f6f8; /* Old browsers */
@@ -361,5 +362,5 @@ input {
 	border:none;
 }
 .cesium-timeline-bar{
-	background:rgba(0,0,0,0.4);
+	background:rgba(29,29,29,0.4);
 }
