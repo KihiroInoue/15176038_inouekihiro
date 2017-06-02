@@ -30,18 +30,20 @@ a:hover {
 /*Cesiumインターフェイス関連*/
 
 .cesium-infoBox-iframe {
-    width: 320px;
-    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    overflow: visible;
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     z-index: 10001;
 }
 
 .cesium-infoBox {
-    width: 320px;
-    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    overflow: visible;
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     z-index: 10001;
     background-color: rgba(255, 255, 255, 0.9);
     overflow-y: auto;
@@ -49,8 +51,9 @@ a:hover {
 }
 
 .cesium-infoBox-visible {
-    width: 320px;
-    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    overflow: visible;
     padding: 0px;
     margin: 0px;
     z-index: 10001;

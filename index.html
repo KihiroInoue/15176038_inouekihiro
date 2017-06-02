@@ -234,15 +234,15 @@
 
 		var kmlDataArray = [];
 		//KMLデータを登録．kmzでもOK
-		kmlDataArray[0] = new kmlData("20歳", './data/kml/20歳_1959_1968.kml');
-		kmlDataArray[1] = new kmlData("30歳", './data/kml/30歳_1969_1978.kml');
-		kmlDataArray[2] = new kmlData("40歳", './data/kml/40歳_1979_1988.kml');
-		kmlDataArray[3] = new kmlData("50歳", './data/kml/50歳_1989_1998.kml');
-		kmlDataArray[4] = new kmlData("60歳", './data/kml/60歳_1999_2008.kml');
-		kmlDataArray[5] = new kmlData("70歳", './data/kml/70歳_2009_2017.kml');
+		kmlDataArray[0] = new kmlData("20歳", './data/kml/20_1959_1968.kml');
+		kmlDataArray[1] = new kmlData("30歳", './data/kml/30_1969_1978.kml');
+		kmlDataArray[2] = new kmlData("40歳", './data/kml/40_1979_1988.kml');
+		kmlDataArray[3] = new kmlData("50歳", './data/kml/50_1989_1998.kml');
+		kmlDataArray[4] = new kmlData("60歳", './data/kml/60_1999_2008.kml');
+		kmlDataArray[5] = new kmlData("70歳", './data/kml/70_2009_2017.kml');
 
 		//時間情報入りのKML
-		kmlDataArray[6] = new kmlData("タイムスパン", 'data/kml/timespan.kml');
+		kmlDataArray[6] = new kmlData("タイムスパン", 'data/kml/timespans.kml');
 
 		function loadKml() {
 			var i = 0;
@@ -428,7 +428,7 @@
 							viewer.clock.currentTime = clock.currentTime;
 							viewer.clock.multiplier = 10 * 60 * 60;
 							viewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime);
-		
+
 							viewer.camera.moveEnd.addEventListener(function () {
 								transParent();
 							});
